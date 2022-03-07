@@ -27,3 +27,7 @@
     <script src="{{url('backend/plugins/chartist-plugin-tooltips/js/chartist-plugin-tooltip.min.js')}}"></script>
     
     <script src="{{url('backend/js/dashboard/dashboard-1.js')}}"></script>
+    {{-- data tables --}}
+    <script src="{{url('backend/plugins/tables/js/jquery.dataTables.min.js')}}"></script>
+    <script src="{{url('backend/plugins/tables/js/datatable/dataTables.bootstrap4.min.js')}}"></script>
+    <script src="{{url('backend/plugins/tables/js/datatable-init/datatable-basic.min.js')}}"></script>

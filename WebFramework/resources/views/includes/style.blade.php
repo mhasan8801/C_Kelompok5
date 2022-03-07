@@ -6,5 +6,7 @@
     <!-- Chartist -->
     <link rel="stylesheet" href="{{url('backend/plugins/chartist/css/chartist.min.css')}}">
     <link rel="stylesheet" href="{{url('backend/plugins/chartist-plugin-tooltips/css/chartist-plugin-tooltip.css')}}">
+    {{-- data tables --}}
+    <link href="{{url('backend/plugins/tables/css/datatable/dataTables.bootstrap4.min.css" rel="stylesheet')}}">
     <!-- Custom Stylesheet -->
     <link href="{{url('backend/css/style.css')}}" rel="stylesheet">

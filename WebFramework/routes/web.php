@@ -19,7 +19,13 @@ Route::prefix('admin')
     ->namespace('Admin')
     ->group(function(){
             
-        Route::get('/dashboard','DashboardController@index')
+        Route::get('/','DashboardController@index')
             ->name('dashboard');
+        Route::get('/petugas','PetugasController@index')
+            ->name('Petugas');
+        Route::get('/anggota','anggotaController@index')
+            ->name('Anggota');
+        Route::get('/buku','bukuController@index')
+            ->name('Buku');
 });
 
