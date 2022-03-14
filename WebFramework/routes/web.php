@@ -17,8 +17,7 @@ Route::get('/', function () {
 
 Route::prefix('admin')
     ->namespace('Admin')
-    ->group(function(){
-            
+    ->group(function(){  
         Route::get('/','DashboardController@index')
             ->name('dashboard');
         Route::get('/petugas','PetugasController@index')

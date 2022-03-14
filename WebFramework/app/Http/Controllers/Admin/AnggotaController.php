@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 class AnggotaController extends Controller
 {
     public function index(Request $request){
-        return view('pages.admin.anggota.index');
+        $anggota = \App\Anggota::all();
+        return view('pages.admin.anggota.index',['anggota'=>$anggota]);
     }
 }
