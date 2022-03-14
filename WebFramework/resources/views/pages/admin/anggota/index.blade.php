@@ -28,6 +28,8 @@
                                             <tr>
                                                 <th>Id Anggota</th>
                                                 <th>Nama</th>
+                                                <th>Create at</th>
+                                                <th>Update at</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -35,20 +37,9 @@
                                             <tr>
                                                 <td>{{ $a->id_anggota }}</td>
                                                 <td>{{ $a->nama }}</td>
+                                                <td>{{ $a->created_at }}</td>
+                                                <td>{{ $a->updated_at }}</td>
                                             </tr>
-                                                {{-- <tr>
-                                                    <th scope="row">{{ $user->id }}</th>
-                                                    <td>{{ $user->name }}</td>
-                                                    <td>{{ $user->email }}</td>
-                                                    <td>{{ $user->username }}</td>
-                                                    <td><a href="{{ route('users.show', $user->id) }}" class="btn btn-warning btn-sm">Show</a></td>
-                                                    <td><a href="{{ route('users.edit', $user->id) }}" class="btn btn-info btn-sm">Edit</a></td>
-                                                    <td>
-                                                        {!! Form::open(['method' => 'DELETE','route' => ['users.destroy', $user->id],'style'=>'display:inline']) !!}
-                                                        {!! Form::submit('Delete', ['class' => 'btn btn-danger btn-sm']) !!}
-                                                        {!! Form::close() !!}
-                                                    </td>
-                                                </tr> --}}
                                             @endforeach
                                             
                                         </tbody>
@@ -56,6 +47,8 @@
                                             <tr>
                                                 <th>Id Anggota</th>
                                                 <th>Nama</th>
+                                                <th>Create at</th>
+                                                <th>Update at</th>
                                             </tr>
                                         </tfoot>
                                     </table>
