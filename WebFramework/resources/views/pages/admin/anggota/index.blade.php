@@ -36,7 +36,7 @@
                                             @foreach($anggota as $a)
                                             <tr>
                                                 <td>{{ $a->id_anggota }}</td>
-                                                <td>{{ $a->nama }}</td>
+                                                <td>{{ $a->nama_anggota }}</td>
                                                 <td>{{ $a->created_at }}</td>
                                                 <td>{{ $a->updated_at }}</td>
                                             </tr>
